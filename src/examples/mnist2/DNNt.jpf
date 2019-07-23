@@ -14,6 +14,8 @@ symbolic.max_double=1.0
 symbolic.dnn.data=${jpf-symbc}/src/examples/mnist2/data
 
 symbolic.collect_constraints=true
+symbolic.optimizechoices=false
+#symbolic.dp=no_solver
 
 symbolic.method=mnist2.DNNt.run(sym)
 #28*28=784
